@@ -91,8 +91,8 @@ The program displays a menu to select a test case.
 
 | Test File        | Matrix Size (M×K × K×N) | Expected Output | Actual Output | Simple Time (µs) | Blocking Time (µs) | Block Size | Status  |
 | ---------------- | ----------------------- | --------------- | ------------- | ---------------: | -----------------: | ---------: | :-----: |
-| gemm_test_01.txt | 10x10 10x10                     | Result Matrix   | Result Matrix |              ... |                ... |        16 | ✅ Pass |
-| gemm_test_02.txt | 100x100 100x100                     | Result Matrix   | Result Matrix |              ... |                ... |        16 | ✅ Pass |
+| gemm_test_01.txt | 10x10 10x10                     | Result Matrix   | Result Matrix |              4 |                ... |        16 | ✅ Pass |
+| gemm_test_02.txt | 100x100 100x100                     | Result Matrix   | Result Matrix |              2600 |                ... |        16 | ✅ Pass |
 | gemm_test_03.txt | 500x500 500x500                     | Result Matrix   | Result Matrix |              ... |                ... |        16 | ✅ Pass |
 | gemm_test_04.txt | 1000x1000 1000x100                     | Result Matrix   | Result Matrix |              ... |                ... |        16 | ✅ Pass |
 
