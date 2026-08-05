@@ -1,18 +1,18 @@
 # GEMM (General Matrix Multiplication)
 
-# To Execute Simple Matrix Multplication
+## To Execute Simple Matrix Multplication
 
 cd Simple_GEMM
 g++ -std=c++17 -O2 driver/driver.cpp src/gemm.cpp -o gemm_simple.exe
 gemm_simple.exe
 
-# To Execute blocking Matrix Multplication
+## To Execute blocking Matrix Multplication
 
 - cd Blocking_GEMM
 - g++ -std=c++17 -O2 driver/driver.cpp src/gemm.cpp -o gemm_blocking.exe
 - gemm_blocking.exe
 
-# To Execute CSR
+## To Execute CSR
 
 cd CSR_graph
 g++ -std=c++17 -O2 csr_graph.cpp -o csr_graph.exe
