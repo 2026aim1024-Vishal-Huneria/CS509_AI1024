@@ -8,9 +8,9 @@ gemm_simple.exe
 
 # To Execute blocking Matrix Multplication
 
-cd Blocking_GEMM
-g++ -std=c++17 -O2 driver/driver.cpp src/gemm.cpp -o gemm_blocking.exe
-gemm_blocking.exe
+- cd Blocking_GEMM
+- g++ -std=c++17 -O2 driver/driver.cpp src/gemm.cpp -o gemm_blocking.exe
+- gemm_blocking.exe
 
 # To Execute CSR
 
