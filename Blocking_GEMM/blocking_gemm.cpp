@@ -2,7 +2,7 @@
 using namespace std;
 
 #define MAX 100
-#define BLOCK_SIZE 2
+#define BLOCK_SIZE 16
 
 void printMatrix(int C[][MAX], int M, int N)
 {
