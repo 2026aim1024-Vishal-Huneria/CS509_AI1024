@@ -1,15 +1,7 @@
-#include "gemm_blocking.h"
+#include "gemm.h"
 
-void multiplyMatricesBlocking(
-    int A[][MAX],
-    int B[][MAX],
-    int C[][MAX],
-    int M,
-    int K,
-    int N)
+void multiplyMatrix(int A[][MAX], int B[][MAX], int C[][MAX], int M, int K, int N)
 {
-    memset(C, 0, sizeof(int) * MAX * MAX);
-
     for(int ii = 0; ii < M; ii += BLOCK_SIZE)
     {
         for(int jj = 0; jj < N; jj += BLOCK_SIZE)

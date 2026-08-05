@@ -16,7 +16,7 @@ void printMatrix(int C[][MAX], int M, int N)
 
 int main()
 {
-    ifstream fin("gemm_test_150.txt");
+    ifstream fin("gemm_test_02.txt");
 
     if(!fin)
     {
