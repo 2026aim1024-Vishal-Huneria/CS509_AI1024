@@ -93,8 +93,8 @@ The program displays a menu to select a test case.
 | ---------------- | ----------------------- | --------------- | ------------- | ---------------: | -----------------: | ---------: | :-----: |
 | gemm_test_01.txt | 10x10 10x10                     | Result Matrix   | Result Matrix |              4 |                5 |        16 | ✅ Pass |
 | gemm_test_02.txt | 100x100 100x100                     | Result Matrix   | Result Matrix |              2600 |                4881 |        16 | ✅ Pass |
-| gemm_test_03.txt | 500x500 500x500                     | Result Matrix   | Result Matrix |              ... |                ... |        16 | ✅ Pass |
-| gemm_test_04.txt | 1000x1000 1000x100                     | Result Matrix   | Result Matrix |              ... |                ... |        16 | ✅ Pass |
+| gemm_test_03.txt | 500x500 500x500                     | Result Matrix   | Result Matrix |              ... |                ... |        16 | didnt loaded |
+| gemm_test_04.txt | 1000x1000 1000x100                     | Result Matrix   | Result Matrix |              ... |                ... |        16 | didnt loaded |
 
 ---
 
