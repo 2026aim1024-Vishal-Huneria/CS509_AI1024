@@ -10,7 +10,52 @@ using namespace std;
 
 int main()
 {
-    string fileName = "tests/bellman_test_01.txt";
+    // string fileName = "tests/bellman_ford_test_2.txt";
+
+    int choice;
+
+cout << "1. Run bf_10.txt\n";
+cout << "2. Run bf_100.txt\n";
+cout << "3. Run bf_10000.txt\n";
+cout << "4. Run bf_50000.txt\n";
+cout << "5. Run bf_100000.txt\n";
+cout << "6. Run All Tests\n";
+
+cout << "Enter choice: ";
+cin >> choice;
+
+string fileName;
+
+switch(choice)
+{
+    case 1:
+        fileName = "tests/bf_10.txt";
+        break;
+
+    case 2:
+        fileName = "tests/bf_100.txt";
+        break;
+
+    case 3:
+        fileName = "tests/bf_10000.txt";
+        break;
+
+    case 4:
+        fileName = "tests/bf_50000.txt";
+        break;
+
+    case 5:
+        fileName = "tests/bf_100000.txt";
+        break;
+
+    case 6:
+        // handle all tests separately
+        break;
+
+    default:
+        cout << "Invalid choice\n";
+        return 0;
+}
 
     ifstream fin(fileName);
 
@@ -111,48 +156,3 @@ int main()
 
     return 0;
 }
-// }
-// #include <iostream>
-// #include <fstream>
-
-// using namespace std;
-
-// int main()
-// {
-//     cerr << "PROGRAM STARTED\n";
-
-//     const char* fileName = "tests\\bellman_test_01.txt";
-
-//     cerr << "Before open\n";
-//     cerr << "File: " << fileName << "\n";
-
-//     ifstream fin;
-
-//     cerr << "ifstream created\n";
-
-//     fin.open(fileName, ios::in);
-
-//     cerr << "After open\n";
-
-//     if(fin.is_open())
-//     {
-//         cerr << "FILE OPENED SUCCESSFULLY\n";
-
-//         int vertices, edges;
-
-//         fin >> vertices >> edges;
-
-//         cerr << "vertices = " << vertices << "\n";
-//         cerr << "edges = " << edges << "\n";
-
-//         fin.close();
-//     }
-//     else
-//     {
-//         cerr << "FILE OPEN FAILED\n";
-//     }
-
-//     cerr << "PROGRAM END\n";
-
-//     return 0;
-// }
