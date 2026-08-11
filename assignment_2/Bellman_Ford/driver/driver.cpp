@@ -29,23 +29,23 @@ string fileName;
 switch(choice)
 {
     case 1:
-        fileName = "tests/bf_10.txt";
+        fileName = "assignment_2/bellman_ford/tests/bf_10.txt";
         break;
 
     case 2:
-        fileName = "tests/bf_100.txt";
+        fileName = "assignment_2/bellman_ford/tests/bf_100.txt";
         break;
 
     case 3:
-        fileName = "tests/bf_10000.txt";
+        fileName = "assignment_2/bellman_ford/tests/bf_10000.txt";
         break;
 
     case 4:
-        fileName = "tests/bf_50000.txt";
+        fileName = "assignment_2/bellman_ford/tests/bf_50000.txt";
         break;
 
     case 5:
-        fileName = "tests/bf_100000.txt";
+        fileName = "assignment_2/bellman_ford/tests/bf_100000.txt";
         break;
 
     case 6:

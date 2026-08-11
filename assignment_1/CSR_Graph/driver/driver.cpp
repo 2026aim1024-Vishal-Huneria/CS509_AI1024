@@ -23,15 +23,15 @@ int main()
             break;
 
         case 2:
-            fileName = "../tests/graph_test_02.txt";
+            fileName = "tests/graph_test_02.txt";
             break;
 
         case 3:
-            fileName = "../tests/graph_test_03.txt";
+            fileName = "tests/graph_test_03.txt";
             break;
 
         case 4:
-            fileName = "../tests/graph_test_04.txt";
+            fileName = "tests/graph_test_04.txt";
             break;
 
         default:

@@ -4,8 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define MAX 100
-#define BLOCK_SIZE 16
+#define MAX 1000
+#define BLOCK_SIZE 2
 
 void multiplyMatrix(int A[][MAX], int B[][MAX], int C[][MAX], int M, int K, int N);
 

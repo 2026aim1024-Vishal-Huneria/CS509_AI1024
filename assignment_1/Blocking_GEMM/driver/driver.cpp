@@ -16,19 +16,19 @@ int main()
     switch(choice)
     {
         case 1:
-            fileName = "tests/gemm_test_01.txt";
+            fileName = "assignment_1/Blocking_GEMM/tests/gemm_test_01.txt";
             break;
 
         case 2:
-            fileName = "tests/gemm_test_02.txt";
+            fileName = "assignment_1/Blocking_GEMM/tests/gemm_test_02.txt";
             break;
 
         case 3:
-            fileName = "tests/gemm_test_03.txt";
+            fileName = "assignment_1/Blocking_GEMM/tests/gemm_test_03.txt";
             break;
 
         case 4:
-            fileName = "tests/gemm_test_04.txt";
+            fileName = "assignment_1/Blocking_GEMM/tests/gemm_test_04.txt";
             break;
 
         default:
