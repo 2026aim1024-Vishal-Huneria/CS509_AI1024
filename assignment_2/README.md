@@ -11,6 +11,8 @@
 - **Negative Cycle Detection**: Yes
 - **Time Complexity**: O(V × E)
 - **Space Complexity**: O(V + E)
+-  **Language:** C++
+- **Compiler:** g++
 
 ### Result Table
 
@@ -33,7 +35,8 @@
 - **Negative Cycle Detection**: Yes
 - **Time Complexity**: O(V³)
 - **Space Complexity**: O(V²)
-
+-  **Language:** C++
+- **Compiler:** g++
 ### Result Table
 
 | Algorithm      | Test File       | Vertices | Edges | Source | Negative Cycle | Expected Output | Actual Output | Time | Status |
