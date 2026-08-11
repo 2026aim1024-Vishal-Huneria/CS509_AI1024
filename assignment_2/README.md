@@ -16,11 +16,11 @@
 
 | Algorithm    | Test File      | Vertices | Edges   | Source | Negative Cycle | Expected Output | Actual Output | Time | Status |
 |--------------|----------------|---------:|--------:|-------:|----------------|-----------------|---------------|-----:|--------|
-| Bellman-Ford | `bf_10.txt`    | 10       | ...     | 0      | No             | Distances       | ...           | ... ms | Pass/Fail |
-| Bellman-Ford | `bf_100.txt`   | 100      | ...     | 0      | No             | Distances       | ...           | ... ms | Pass/Fail |
-| Bellman-Ford | `bf_10000.txt` | 10,000   | ...     | 0      | No             | Distances       | ...           | ... ms | Pass/Fail |
-| Bellman-Ford | `bf_50000.txt` | 50,000   | ...     | 0      | No             | Distances       | ...           | ... ms | Pass/Fail |
-| Bellman-Ford | `bf_100000.txt`| 100,000  | ...     | 0      | No             | Distances       | ...           | ... ms | Pass/Fail |
+| Bellman-Ford | `bf_10.txt`    | 10       | 40     | 0      | No             | Distances       | ...           | 0.001 ms | Pass/Fail |
+| Bellman-Ford | `bf_100.txt`   | 100      | 400     | 0      | No             | Distances       | ...           | 0.003 ms | Pass/Fail |
+| Bellman-Ford | `bf_10000.txt` | 10,000   | 40,000     | 0      | No             | Distances       | ...           | 0.164 ms | Pass/Fail |
+| Bellman-Ford | `bf_50000.txt` | 50,000   | 1,00,000     | 0      | No             | Distances       | ...           | 0.483 ms | Pass/Fail |
+| Bellman-Ford | `bf_100000.txt`| 100,000  | 4,00,000     | 0      | No             | Distances       | ...           | 1.126 ms | Pass/Fail |
 
 ---
 
