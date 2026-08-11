@@ -44,16 +44,3 @@
 | Floyd-Warshall | `fw_1000.txt`   | 1,000    | 1,000   | N/A    | No             | Distance matrix | Distance matrix            | 54.044 ms | Pass |
 | Floyd-Warshall | `fw_2000.txt`   | 2,000    | 2,000   | N/A    | No             | Distance matrix | Distance matrix            | 665.139 ms | Pass |
 
----
-
-## Input Format
-
-### Bellman-Ford
-
-Bellman-Ford uses a **weighted directed adjacency-list** format.
-
-```text
-V E
-u degree neighbor weight neighbor weight ...
-...
-SOURCE s
