@@ -19,7 +19,7 @@ cout << "2. Run bf_100.txt\n";
 cout << "3. Run bf_10000.txt\n";
 cout << "4. Run bf_50000.txt\n";
 cout << "5. Run bf_100000.txt\n";
-cout << "6. Run All Tests\n";
+
 
 cout << "Enter choice: ";
 cin >> choice;
@@ -29,28 +29,25 @@ string fileName;
 switch(choice)
 {
     case 1:
-        fileName = "assignment_2/bellman_ford/tests/bf_10.txt";
+        fileName = "tests/bf_10.txt";
         break;
 
     case 2:
-        fileName = "assignment_2/bellman_ford/tests/bf_100.txt";
+        fileName = "tests/bf_100.txt";
         break;
 
     case 3:
-        fileName = "assignment_2/bellman_ford/tests/bf_10000.txt";
+        fileName = "tests/bf_10000.txt";
         break;
 
     case 4:
-        fileName = "assignment_2/bellman_ford/tests/bf_50000.txt";
+        fileName = "tests/bf_50000.txt";
         break;
 
     case 5:
-        fileName = "assignment_2/bellman_ford/tests/bf_100000.txt";
+        fileName = "tests/bf_100000.txt";
         break;
 
-    case 6:
-        // handle all tests separately
-        break;
 
     default:
         cout << "Invalid choice\n";

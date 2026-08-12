@@ -302,7 +302,7 @@ int main()
     if(choice == 1)
     {
         string filename =
-            "tests/fw_2000.txt.txt";
+            "tests/fw_test.txt";
 
         generateWithoutNegativeCycle(
             V,
