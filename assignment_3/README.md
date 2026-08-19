@@ -20,11 +20,11 @@ Both algorithms were tested on weighted undirected graphs. The total MST weight 
 
 | Test File | Vertices (V) | Edges (E) | Expected MST Weight | Kruskal Weight | Prim Weight | Kruskal Time | Prim Time | Weights Equal? | Status |
 |-----------|-------------:|----------:|--------------------:|---------------:|------------:|-------------:|----------:|----------------|--------|
-| `mst_10.txt` | 10 | 20 | ... | ... | ... | 0.005 ms | 0.002 ms | Yes | Pass |
-| `mst_100.txt` | 100 | 250 | ... | ... | ... | 0.068 ms | 0.026 ms | Yes | Pass |
-| `mst_10000.txt` | 10,000 | 30,000 | ... | ... | ... | 2.916 ms | 5.410 ms | Yes | Pass |
-| `mst_50000.txt` | 50,000 | 150,000 | ... | ... | ... | 20.786 ms | 27.698 ms | Yes | Pass |
-| `mst_100000.txt` | 100,000 | 300,000 | ... | ... | ... | 46.976. ms | 68.760 ms | Yes | Pass |
+| `mst_10.txt` | 10 | 20 | 266 | 266 | 266 | 0.005 ms | 0.002 ms | Yes | Pass |
+| `mst_100.txt` | 100 | 250 | 2126 | 2126 | 2126 | 0.068 ms | 0.026 ms | Yes | Pass |
+| `mst_10000.txt` | 10,000 | 30,000 | 203863 | 203863 | 203863 | 2.916 ms | 5.410 ms | Yes | Pass |
+| `mst_50000.txt` | 50,000 | 150,000 | 1010514 | 1010514 | 1010514 | 20.786 ms | 27.698 ms | Yes | Pass |
+| `mst_100000.txt` | 100,000 | 300,000 | 2012769 |2012769 | 2012769 | 46.976. ms | 68.760 ms | Yes | Pass |
 
 ### Correctness
 
